@@ -1,39 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>My Website</title>
   
-  <!-- Link to external CSS -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="assets/css/index.css">
+	<!-- Link to external fonts -->
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+	<!-- Link to external CSS -->
+  	<link rel="stylesheet" href="style.css">
+  	<link rel="stylesheet" href="assets/css/index.css">
+  	<link rel="stylesheet" href="assets/css/header.css">
+	<link rel="stylesheet" href="assets/css/timeline.css">
 </head>
 
 <body>
 
-  <!-- Header / Navigation -->
-  <header>
-    <h1>Studra</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="brand.html">Brand</a>
-    </nav>
-  </header>
+  	<!-- Header / Navigation -->
+  	<header>
+		<div class="header">
+			<h1>Studra</h1>
+			<nav>
+				<a class="navigation" href="index.html">Account</a>
+				<a class="navigation" href="about.html">About us</a>
+			</nav>	
+		</div>
+   
+	
+  	</header>
 
-  <!-- Main content -->
-  <main>
-    <div class="box">This is a box!</div>
+  	<!-- Main content -->
+	<main>
 
-  </main>
+		<div class="column-layout">
+			<div class="left_column">
 
-  <!-- Footer -->
-  <footer>
-    <p>2026 My Website. All rights reserved.</p>
-  </footer>
+			</div>
+			<div class="middle_column">
+				<div class="page-wrapper">
+					<div class="section-timeline-heading">
+						<div class="container">
+							<div class="padding-vertical-xlarge">
+								<div class="timeline-main_heading-wrapper">
+									<div class="margin-bottom-medium">
+										<h2>The Rise of Electric Vehicles</h2>
+									</div>
+									<p class="paragraph-large">
+										The electric vehicle (EV) revolution began with small, incremental
+										steps. <br />This timeline tracks key moments in the development
+										of
+										electric cars and the global push towards sustainability.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-timeline">
+						<div class="container">
+							<!-- <div class="timeline_component2">
+								<div class="timeline_progress2">
+									<div class="timeline_progress-bar"></div>
+								</div>
+							</div> -->
+							<div class="timeline_component">
+								<div class="timeline_progress">
+									<div class="timeline_progress-bar"></div>
+								</div>
+								<div class="timeline_item">
+									<div class="timeline_left">
+										<div class="timeline_circle"></div>
+									
+									</div>
+									<div class="timeline_centre">
+									
+										<div class="timeline_date-text">00 XX</div>
+									</div>
+									<div class="timeline_right">
+										<div class="margin-bottom-xlarge">
+											<div class="timeline_text">
+												Tesla introduces its first electric car, the Roadster, showing
+												the world the potential of electric vehicles with a range of
+												over 200 miles.
+											</div>
+										</div>
+										<div class="timeline_image-wrapper">
+											<img src="https://imageio.forbes.com/specials-images/imageserve/6335d236f4ddc58b72592c39//960x0.jpg" loading="lazy" width="480" alt="Tesla Roadster" />
+										</div>
+									</div>
+								</div>
+							<div class="timeline_item">
+								<div class="timeline_left">
+									<div class="timeline_circle"></div>
+								</div>
+								<div class="timeline_centre">
+									<div class="timeline_date-text">00 XX</div>
+								</div>
+								<div class="timeline_right">
+									<div class="margin-bottom-medium">
+										<div class="timeline_text">
+											The Chevy Bolt EV is launched, providing an affordable
+											alternative to Tesla’s luxury offerings, and pushing the
+											industry closer to mass-market electric vehicles.
+										</div>
+									</div>
+									<div class="timeline_image-wrapper">
+										<img src="https://imageio.forbes.com/specials-images/imageserve/6335d2c49044f4bf8e4becc0//960x0.jpg" loading="lazy" width="480" alt="Chevy Bolt EV" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="overlay-fade-top"></div>
+						<div class="overlay-fade-bottom"></div>
+					<div style="height: 50vh;"></div>
+				</div>
+			</div>
+			<div class="right_column"></div>
+		</div>
+		
+	</main>
 
-  <!-- Optional JS -->
-  <script src="main.js"></script>
+	<!-- Footer -->
+	<footer>
+		<p>2026 My Website. All rights reserved.</p>
+	</footer>
+
+	<!-- Optional JS -->
+	<script src="timeline.js"></script>
+
+
 </body>
 </html>

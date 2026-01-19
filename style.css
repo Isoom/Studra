@@ -8,11 +8,13 @@ Version: 1.0
 /* Global Styles */
 
 :root {
-	--background-color: white;
-	--primary-color: beige;
-	--primary-text-color: white;
+	--background-color: beige;
+	--primary-color: rgb(188, 197, 240);
+	--secondary-color:green;
+	--primary-text-color: black;
+	--secondary-text-color: white;
 	--headings-font-family: 'Inter', san-serif;
-	--body-font-family: 'Arial', san-serif;
+	--body-font-family: 'Inter', san-serif;
 	--heading-font-size: 1.5em;
 	--p-font-size: 1em;
 }
@@ -21,4 +23,9 @@ body {
 	font-family: var(--body-font-family);
 	background-color: var(--background-color);
 	color: var(--primary-text-color-color);
+	margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
